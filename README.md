@@ -11,9 +11,9 @@ They are stored in the format of: <br />
 Once decompressing, the values are then taken at each pixel for their color, <br />
 the colors adjacent are averaged and taken as well.<br />
 Ex. node(i,j)<br />
-<space><space> G <br />
-G B R<br />
-<space><space> R <br />
+&nbsp;&nbsp;&nbsp;&nbsp;|G|<br />
+|G|B |R|<br />
+&nbsp;&nbsp;&nbsp;&nbsp;|R|<br />
 node(i,j).R = [color(i+1, j) + color(i, j+1)]/2;<br />
 node(i,j).G = [color(i, j-1) + color(i-1, j)]/2;<br />
 node(i,j).B = color(i, j);<br />
