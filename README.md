@@ -1,5 +1,5 @@
 # Simple-Image-Compression-Matlab-
-Simple, somewhat inaccurate compression algorithm for images. <br />
+Simple, somewhat lossy compression algorithm for images. Compression ratio of 33.333% <br />
 <br />
 It works by storing the only the red, green, or blue values for each pixel. <br />
 They are stored in the format of: <br />
